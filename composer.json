@@ -1,0 +1,38 @@
+{
+	"name": "jstewmc/piecewise-fx",
+	"description": "Piecewise math functions",
+	"keywords": ["php", "jstewmc", "piecewise", "function"],
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"repositories": [
+    	{
+            "type": "git",
+            "url": "https://github.com/jstewmc/fx"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/jstewmc/interval"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/jstewmc/test-case"
+        }  	
+	],
+	"require": {
+		"php": "^7.0",
+		"jstewmc/fx": "^0.3",
+		"jstewmc/interval": "^0.1"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\PiecewiseFx\\": "src/"
+		}
+	}
+}
