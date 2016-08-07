@@ -2,12 +2,12 @@
 Piecewise math functions.
 
 ```php
-use Jstewmc\Fx\{Constant, Linear}
+use Jstewmc\Fx\{Constant, Linear};
 use Jstewmc\Interval\Interval;
 use Jstewmc\PiecewiseFx;
 
 // define our sub-functions...
-//     y = 1     | 0 <= x <= 3
+//     y = 1     | 1 <= x <= 3
 //     y = x - 2 | 3 < x <= 6
 //     y = 4     | 6 < x <= 9
 //
@@ -40,11 +40,9 @@ $fx(8);  // returns 4
 $fx(9);  // returns 4
 ```
 
-A [piecewise function](https://en.wikipedia.org/wiki/Piecewise) is a function composed of multiple sub-functions, where each sub-function applies to an interval of the function's domain. 
+A [piecewise function](https://en.wikipedia.org/wiki/Piecewise) is a function composed of multiple sub-functions, each of which applies to an interval of the function's domain. 
 
-This library relies heavily on [jstewmc/fx](https://github.com/jstewmc/fx) and [jstewmc/interval](https://github.com/jstewmc/interval).
-
-A piecewise function requires an array of sub-functions. Each sub-function, in turn, requires an interval and function.
+As you can see in the example above, a piecewise function requires an array of sub-functions. Each sub-function, in turn, requires an interval and function. To learn more about intervals and functions, see [jstewmc/interval](https://github.com/jstewmc/interval) and [jstewmc/fx](https://github.com/jstewmc/fx) for details, respectively.
 
 ## License
 
