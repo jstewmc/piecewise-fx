@@ -1,4 +1,4 @@
-# piecewise-fx
+# piecewise-f(x)
 Piecewise math functions.
 
 ```php
@@ -29,15 +29,17 @@ $subFxs = [
 // define our piecewise fx
 $fx = new PiecewiseFx($subFxs);
 
-$fx(1);  // returns 1
-$fx(2);  // returns 1
-$fx(3);  // returns 1
-$fx(4);  // returns 2
-$fx(5);  // returns 3 
-$fx(6);  // returns 4
-$fx(7);  // returns 4
-$fx(8);  // returns 4
-$fx(9);  // returns 4
+$fx(0);   // returns null
+$fx(1);   // returns 1
+$fx(2);   // returns 1
+$fx(3);   // returns 1
+$fx(4);   // returns 2
+$fx(5);   // returns 3 
+$fx(6);   // returns 4
+$fx(7);   // returns 4
+$fx(8);   // returns 4
+$fx(9);   // returns 4
+$fx(10);  // returns null
 ```
 
 A [piecewise function](https://en.wikipedia.org/wiki/Piecewise) is a function composed of multiple sub-functions, each of which applies to an interval of the function's domain. 
@@ -53,6 +55,10 @@ As you can see in the example above, a piecewise function requires an array of s
 [Jack Clayton](mailto:clayjs0@gmail.com)
 
 ## Version
+
+### 0.1.1, August 16, 2016
+
+* Update composer.json
 
 ### 0.1.0, August 6, 2016
 
