@@ -56,9 +56,14 @@ As you can see in the example above, a piecewise function requires an array of s
 
 ## Version
 
-### 0.1.1, August 16, 2016
+### 1.0.0, August 13, 2016
 
-* Update composer.json
+* Major release
+* Update `composer.json`
+
+### 0.1.1, August 13, 2016
+
+* Update `composer.json`
 
 ### 0.1.0, August 6, 2016
 
