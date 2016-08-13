@@ -2,6 +2,7 @@
 	"name": "jstewmc/piecewise-fx",
 	"description": "Piecewise math functions",
 	"keywords": ["php", "jstewmc", "piecewise", "function"],
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Jack Clayton",
