@@ -9,20 +9,6 @@
 			"email": "clayjs0@gmail.com"	
 		}
 	],
-	"repositories": [
-    	{
-            "type": "git",
-            "url": "https://github.com/jstewmc/fx"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/jstewmc/interval"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/jstewmc/test-case"
-        }  	
-	],
 	"require": {
 		"php": "^7.0",
 		"jstewmc/fx": "^0.3",
